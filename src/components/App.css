@@ -1,0 +1,8 @@
+.goalCoach {
+    display: flex;
+    flex-direction: column;
+}
+
+.signOut {
+    text-align: center;
+}

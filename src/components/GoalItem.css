@@ -1,0 +1,18 @@
+.button-phone {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    h4 {
+        font-size: 1rem;
+    }
+    span {
+        font-size: 0.8rem;
+    }
+    .button-laptop{
+        display:none;
+    }
+    .button-phone {
+        display: inline-block;
+    }
+}

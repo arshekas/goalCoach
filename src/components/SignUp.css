@@ -1,0 +1,31 @@
+.signUp {
+    display:flex;
+    font-size: 1rem;
+    flex-direction: column;
+}
+.signUpform {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+}
+.signUp .email, .signUp .password {
+    margin-bottom: 1rem;
+}
+
+button {
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .signUp {
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .signUp .email, .signUp .password {
+        margin-bottom: 1rem;
+    }
+    button {
+        margin-bottom: 0;
+    }
+}
